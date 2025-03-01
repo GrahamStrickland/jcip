@@ -14,7 +14,7 @@ public class SequenceTest {
 
     @Test
     public void shouldReturnUniqueValue() throws ExecutionException, InterruptedException {
-        int numberOfThreads = 10;
+        int numberOfThreads = 1000;
         ExecutorService service = Executors.newFixedThreadPool(10);
         CountDownLatch latch = new CountDownLatch(numberOfThreads);
         Sequence seq = new Sequence();

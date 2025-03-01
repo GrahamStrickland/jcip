@@ -8,7 +8,7 @@ public class UnsafeSequenceTest {
 
     @Test
     public void shouldReturnUniqueValue() {
-        int numberOfRuns = 10;
+        int numberOfRuns = 1000;
         UnsafeSequence seq = new UnsafeSequence();
 
         for (int i = 0; i < numberOfRuns; i++) {
