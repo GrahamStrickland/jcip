@@ -15,6 +15,5 @@ public class UnsafeSequenceTest {
             var res = seq.getNext();
             assertEquals(res, i);
         }
-
     }
 }
