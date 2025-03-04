@@ -1,3 +1,9 @@
 # Maven files
+.classpath
 .mvn
+.settings
 target
+
+# VSCode files
+*.code-workspace
+.vscode
